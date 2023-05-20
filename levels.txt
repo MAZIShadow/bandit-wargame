@@ -9,3 +9,4 @@ bandit5:lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR (find inhere/ -type f -size 1033c -read
 bandit6:P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU (find / -type f -size 33c -user bandit7 -group bandit6 2> /dev/null)
 bandit7:z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S (cat data.txt | grep millionth)
 bandit8:TESKZC0XvTetK0S9xNwm25STk5iWrBvP (sort data.txt | uniq -u)
+bandit9:EN632PlfYiZbn3PhVK3XOGSlNInNE00t (cat data.txt | grep -aPo '=+\s+\K\w{10,}')
