@@ -23,3 +23,4 @@ bandit19:awhqfNnAbc1naukrpqDYcF95h7HoMTrC	(./bandit20-do cat /etc/bandit_pass/ba
 bandit20:VxCazJaVykI6W36BkBU0mJTCM8rR95XT	(echo <pass> | nc -l -p <port> & ./suconnect <port>)
 bandit21:NvEJF7oVjkddltPSrdKEFOllh9V1IBcq	(/usr/bin/cronjob_bandit22.sh && cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv)
 bandit22:WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff   (cat /tmp/$(echo I am user bandit23 | md5sum | cut -d ' ' -f 1))
+bandit23:QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G	(create script reading password)
