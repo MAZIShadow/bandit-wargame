@@ -25,4 +25,5 @@ bandit21:NvEJF7oVjkddltPSrdKEFOllh9V1IBcq	(/usr/bin/cronjob_bandit22.sh && cat /
 bandit22:WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff   (cat /tmp/$(echo I am user bandit23 | md5sum | cut -d ' ' -f 1))
 bandit23:QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G	(create script reading password)
 bandit24:VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar   (generate ping then brute force localhost 30002 split every 1000 pins)
+bandit25:p7TaowMYrmu23Ol8hiZh9UvD0O9hpx8d   (resize shell window to minimal while more shows up then press 'e' it execute vim then :set shell=/bin/bash, :shell you are in shell)
 
