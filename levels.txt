@@ -30,3 +30,4 @@ bandit26: use rsa key						(ssh -i bandit26.sshkey bandit26@bandit.labs.overthew
 bandit27:YnQpBuifNMas1hcUFk70ZmqkhUU2EuaS   (cd $(mktemp -d) && git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo && cat repo/README)
 bandit28:AVanL161y9rsbcJIsFHuw35rjaOM19nR	(cd $(mktemp -d) && git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo && cd repo && git show HEAD)
 bandit29:tQKvmcwNYcFS6vmPHIUSI3ShmsrQZK8S	(cd $(mktemp -d) && git clone ssh://bandit29-git@localhost:2220/home/bandit29-git/repo && cd repo && git switch dev && git show HEAD)
+bandit30:xbhV3HpNGlTIdnjUrdAlPzc2L6y9EOnS	(cd $(mktemp -d) && git clone ssh://bandit30-git@localhost:2220/home/bandit30-git/repo && cd repo && git show $(git tag -l))
