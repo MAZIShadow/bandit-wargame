@@ -28,4 +28,5 @@ bandit24:VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar   (generate ping then brute force loca
 bandit25:p7TaowMYrmu23Ol8hiZh9UvD0O9hpx8d   (resize shell window to minimal while more shows up then press 'e' it execute vim then :set shell=/bin/bash, :shell you are in shell)
 bandit26: use rsa key						(ssh -i bandit26.sshkey bandit26@bandit.labs.overthewire.org -p 2220 (on really small window then type v then :set shell=/bin/bash then :shell then ./bandit27-do cat /etc/bandit_pass/bandit27))
 bandit27:YnQpBuifNMas1hcUFk70ZmqkhUU2EuaS   (cd $(mktemp -d) && git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo && cat repo/README)
+bandit28:AVanL161y9rsbcJIsFHuw35rjaOM19nR	(cd $(mktemp -d) && git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo && cd repo && git show HEAD)
 
